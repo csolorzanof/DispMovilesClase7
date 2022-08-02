@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Desarrollo/Android/Clase7/app/src/main/res/layout-land/activity_main.xml" value="0.340625" />
+        <entry key="..\:/Desarrollo/Android/Clase7/app/src/main/res/layout/activity_main.xml" value="0.371875" />
         <entry key="..\:/Desarrollo/Android/Clase7/app/src/main/res/layout/fragment_split_dos2.xml" value="0.371875" />
         <entry key="..\:/Desarrollo/Android/Clase7/app/src/main/res/layout/fragment_split_uno2.xml" value="0.371875" />
+        <entry key="..\:/Desarrollo/Android/Clase7/app/src/main/res/layout/view_post.xml" value="0.33" />
       </map>
     </option>
   </component>
