@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity" >
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcvUno"
         android:name="net.csolorzano.clase7.SplitUnoFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fcvDos"
         android:name="net.csolorzano.clase7.SplitDosFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
 </LinearLayout>
