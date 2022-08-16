@@ -12,6 +12,9 @@ interface PostDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertPosts(posts: List<PostEntity>)
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertPost(post: PostEntity)
+
     @Query("SELECT * FROM posts")
     fun loadPosts(): LiveData<List<PostEntity>>
 

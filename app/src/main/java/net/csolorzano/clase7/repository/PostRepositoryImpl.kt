@@ -36,4 +36,10 @@ class PostRepositoryImpl (
         })
         return postDao.loadPosts()
     }
+
+    override fun agregarPost(post: PostEntity) {
+        executor.execute {
+            postDao.insertPost(post)
+        }
+    }
 }
